@@ -1,0 +1,448 @@
+:root {
+    --primary-color: #3563E9;
+    --secondary-color: #ffffff;
+    --Background-color: #F6F7F9;
+    --helping-color: #54A6FF;
+    --text-color-1: #596780;
+    --text-color-2: #90A3BF;
+    --text-color-3: #1A202C;
+    --text-color-4: #131313;
+    --border-color: #e0e0e0;
+    --font-Style: "Plus Jakarta Sans"
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-Style);
+    background-color: #f6f6f6 !important;
+    overflow-x: hidden;
+}
+
+/* nav styling */
+nav {
+    width: 100%;
+    height: 10rem;
+    background-color: var(--secondary-color);
+}
+
+.nav-item {
+    width: 45rem;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border-color);
+
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    background-color: var(--secondary-color);
+
+}
+
+.search-bar-complete {
+    display: flex;
+    align-items: center;
+}
+
+.slider-icon {
+    margin-left: auto !important;
+}
+
+.navbar-brand {
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+
+}
+
+.search-bar-icon {
+    margin-left: 2rem;
+}
+
+.input-area {
+
+    margin-left: 1rem;
+    margin-right: 2rem;
+    border: 0;
+    outline: 0;
+    height: 3.8rem;
+    width: 32rem;
+    font-size: 1.6rem;
+    color: var(--text-color-1);
+    background-color: var(--secondary-color);
+
+}
+
+/* ?nav bar styling ends here  */
+
+/* *Ad Section styling  */
+
+.ad {
+    padding: 15px;
+}
+
+.ad-1 {
+    position: relative;
+}
+
+.ad-2 {
+    position: relative;
+}
+
+.ad-text {
+    position: absolute;
+    color: var(--secondary-color);
+    width: 28rem;
+    height: auto;
+    top: 4rem;
+    left: 4rem;
+}
+
+.heading {
+    text-align: left;
+    font-size: 3rem;
+
+}
+
+.para {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+
+.Ad-btn-1 {
+    width: 12rem;
+    height: 4.4rem;
+    font-size: large;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0;
+    outline: 0;
+}
+
+.Ad-btn-2 {
+    width: 12rem;
+    height: 4.4rem;
+    font-size: large;
+    background-color: var(--helping-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0;
+    outline: 0;
+}
+
+
+.pick-up {
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    padding-right: 5rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.form-check-label {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.heading-Pick-up {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+
+
+.form-select {
+    width: 12.6rem;
+    height: auto;
+}
+
+.location,
+.date,
+.time {
+    border: 0;
+    outline: 0;
+    background-color: var(--secondary-color);
+    color: var(--text-color-1);
+}
+
+.vertical-line {
+    padding-top: 2rem;
+    height: 5rem;
+    width: 1px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    margin-left: 2.5rem;
+    background-color: var(--border-color);
+
+}
+
+.drop-off {
+    background-color: var(--secondary-color);
+
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.Pick-n-Drop {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+/* !catalogue section  */
+
+/* *popular Section */
+.text-heading-popular-car {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: var(--text-color-1);
+
+}
+
+.popular-cars-Second-para {
+    margin-left: auto;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.card {
+    height: 30.8rem;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+}
+
+.popular-cars-cards {
+    margin-top: 1rem;
+}
+
+.popular-cars-cards .card {
+    margin-bottom: 2rem;
+    /* Adjust as needed */
+}
+
+.car-image {
+    position: absolute;
+    top: 3rem;
+}
+.car-image-recommended{
+    position: absolute;
+    top: 1rem;
+}
+
+.white-shadow {
+    position: absolute;
+    width: 100%;
+    top: 6rem;
+}
+.white-shadow-recommended{
+    position: absolute;
+    width: 100%;
+    top: 7.5rem;
+}
+
+.card-body {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.card-first-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.car-name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.heart-div {
+    height: 3rem;
+    width: 3rem;
+    margin-left: auto;
+    padding-top: 0.1rem;
+}
+
+.car-category {
+    color: var(--text-color-2);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.detail-image {
+    height: 3rem;
+    width: 3rem;
+}
+
+.nowrap-text {
+    white-space: nowrap;
+}
+
+.rent-btn {
+    height: 4rem;
+    background: var(--primary-color);
+    border: 0;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.smal-text {
+    margin-top: 1rem;
+    color: var(--text-color-2);
+    font-size: 1rem;
+}
+
+.extra-margin {
+    margin-top: 30rem;
+}
+
+/* !popular section ends here */
+
+
+/* ?show-more styling start here  */
+
+.show-btn {
+    width: 15.6rem;
+    height: 4.4rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.show-more-btn{
+    border: 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+
+}
+
+
+/* !footer style start here  */
+
+
+.footer-container {
+    height: 35rem;
+    ;
+    background-color: var(--secondary-color);
+    color: var(--text-color-1);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.company-footer-name {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.details-name {
+    width: 20rem;
+    color: var(--text-color-4);
+    opacity: 0.6;
+}
+
+.company-name-and-para {
+    margin-left: 5rem;
+
+}
+
+.socials,
+.about,
+.community {
+    margin-bottom: 2rem;
+    color: var(--text-color-3);
+}
+
+.other-info {
+    a {
+        text-decoration: none;
+        color: var(--text-color-4);
+        opacity: 0.6;
+        font-size: 1.4rem;
+    }
+
+    margin-bottom: 2rem;
+}
+
+.copy-right,
+.policy,
+.terms {
+    color: var(--text-color-3);
+
+}
+
+/* .copy-right{
+    margin-left: 5rem;
+
+} */
+.last-row {
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.last-row h5 {
+    font-size: 1.6rem;
+    font-family: 900;
+}
+
+.copy-right {
+    margin-right: auto;
+
+}
+
+.footer-end {
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}

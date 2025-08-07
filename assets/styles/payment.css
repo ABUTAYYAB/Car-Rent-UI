@@ -1,0 +1,264 @@
+:root {
+    --primary-color: #3563E9;
+    --secondary-color: #ffffff;
+    --Background-color: #F6F7F9;
+    --helping-color: #54A6FF;
+    --text-color-1: #596780;
+    --text-color-2: #90A3BF;
+    --text-color-3: #1A202C;
+    --text-color-4: #131313;
+    --border-color: #e0e0e0;
+    --font-Style: "Plus Jakarta Sans"
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-Style);
+    background-color: #f6f6f6 !important;
+    overflow-x: hidden;
+}
+
+
+.rental-summary {
+    /* height: 56rem; */
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+}
+
+.rental-summary-heading {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--text-color-4);
+}
+
+.rental-summary-para {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--text-color-2);
+}
+
+.car-name-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--text-color-4);
+}
+
+.horizontal-line-summary {
+    height: 1px;
+    width: 90%;
+    background-color: var(--border-color);
+    opacity: 0.5;
+}
+
+.subtotal-summary {
+    font-size: 1.6rem;
+    color: var(--text-color-2);
+}
+
+.subtotal-price {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--text-color-4);
+
+}
+
+.promo-code-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 5.6rem;
+    background-color: var(--Background-color);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.promo-code {
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: var(--Background-color);
+    color: var(--text-color-2) !important;
+
+}
+
+.promo-code::placeholder {
+    color: var(--text-color-2) !important;
+}
+
+.promo-btn {
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: var(--Background-color);
+    color: var(--text-color-4);
+}
+
+.total-rent-price-text {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--text-color-4);
+}
+
+.total-rent-price-text-para {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--text-color-2);
+}
+
+.total-rent-price {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--text-color-4);
+}
+
+.billing-info {
+    /* height: 33.6rem; */
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+}
+
+.input-box-step-1 {
+    height: 5.6rem;
+    background-color: var(--Background-color);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.input-box-step-2 {
+    height: 5.6rem;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.input-for-billing {
+    border: none;
+    outline: none;
+    background-color: var(--Background-color);
+    color: var(--text-color-2) !important;
+    font-size: 1.4rem;
+    width: 95%;
+
+}
+
+.input-for-billing-1 {
+    border: none;
+    outline: none;
+    background-color: var(-secondary-color);
+    color: var(--text-color-2) !important;
+    font-size: 1.4rem;
+    width: 95%;
+
+}
+
+.input-for-billing::placeholder {
+    color: var(--text-color-2) !important;
+}
+
+.input-for-billing-1::placeholder {
+    color: var(--text-color-2) !important;
+}
+
+.form-label-billing-info {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color-3);
+}
+
+.main-billing-info-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color-3);
+}
+
+.main-billing-step-info {
+    color: var(--text-color-2) !important;
+    font-size: 1.2rem;
+}
+
+.text-pick-up-billing-info {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color-3);
+}
+
+.text-pick-up-billing-info-radio {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.text-pick-up-billing-info-radio-1 {
+    width: 2rem;
+    height: 2rem;
+}
+
+.payment-method {
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+}
+
+.card-information {
+    background-color: var(--Background-color);
+    border-radius: 1rem;
+    -webkit-border-radius: 1;
+    -moz-border-radius: 1;
+    -ms-border-radius: 1;
+    -o-border-radius: 1;
+}
+
+.conformation {
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+}
+
+.rent-btn-conform-box{
+    width: 14rem;
+    height: 5.6rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.car-conform-btn{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    outline: none;
+    border: none;
+    font-weight: bold;
+
+}
+.basic-heading-billing{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-color-4);
+}
+.basic-heading-billing-para{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-color-2);
+}

@@ -1,0 +1,217 @@
+:root {
+    --primary-color: #3563E9;
+    --secondary-color: #ffffff;
+    --Background-color: #F6F7F9;
+    --helping-color: #54A6FF;
+    --text-color-1: #596780;
+    --text-color-2: #90A3BF;
+    --text-color-3: #1A202C;
+    --text-color-4: #131313;
+    --border-color: #e0e0e0;
+    --font-Style: "Plus Jakarta Sans"
+
+}
+
+.car-details-box{
+height: 50.8rem;
+}
+.car-image-details{
+    position: relative;
+}
+.car-details-text{
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+    position: absolute;
+    max-width: 40rem;
+    color: var(--secondary-color);
+    text-align: left;
+    z-index: 1;
+}
+.car-details-text-heading{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.car-details-text-para{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.car-details-text-box{
+    max-width: 30rem;
+
+}
+.side-images-image{
+    height: 12.4rem;
+}
+.car-side-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.car-information{
+    background-color: var(--secondary-color);
+
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    position: relative;
+}
+
+
+.first-row-car-details{
+    display: flex;
+    justify-content: space-between;
+
+}
+.car-name-details{
+    font-size: 3.4rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--text-color-4);
+
+}
+.img-fav-details{
+    margin-right: 1.5rem;
+}
+.second-row-stars{
+    margin-left: 2rem;
+}
+.car-details-para {
+    color: var(--text-color-1);
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.details-para{
+    color: var(--text-color-1);
+    font-size: 2rem;
+
+}
+.type-details{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.details-part-1{
+    color: var(--text-color-2);
+    font-size: 1.6rem;
+}
+.details-part-2{
+    color: var(--text-color-1);
+    font-size: 1.6rem;
+font-weight: bold;
+
+}
+.last-row{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10rem;
+}
+.car-details-rent-now{
+    width: 15rem;
+    height: 5.6rem;
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.price-details{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.day-details{
+    font-size: 1.6rem;
+}
+.reviews{
+    margin-top: 3rem;
+    height: 45.2rem;
+    background-color: var(--secondary-color);
+}
+.details-notofication-box{
+    height: 2.8rem;
+    width: 4.4rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+.first-row{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+.no-details{
+    font-size: 1.5rem;
+}
+
+
+.reviews-row-1{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.reviews-heading{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color-4);
+}
+.location-review{
+    color: var(--text-color-2);
+    font-size: 1.4rem;
+
+}
+.name-stars{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.star-details{
+    margin-left:65rem;
+}
+.data-review-details{
+    margin-left: 4rem;
+}
+.review-details-para{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 4rem;
+    color: var(--text-color-1);
+    font-size: 1.4rem;
+}
+.review-1{
+    margin-top: 3rem;
+}
+.show-more-btn-reviews{
+    width: 13.2rem;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    color: var(--text-color-2);
+    border: 0;
+    font-size: 1.6rem;
+}
+.btn-text-review{
+    margin-top: 1rem;
+    padding-left: 1rem;
+}

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Morent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/details.css">
+    <link rel="stylesheet" href="assets/styles/payment.css">
+</head>
+
+<body>
+    <header>
+        <!-- *nav bar starting -->
+
+        <!-- !using the bootstrap nav bar  -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-body rounded ">
+            <div class="container-fluid d-flex align-items-center">
+                <a class="navbar-brand " href="#"><img src="assets/images/logo.svg" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <div class="search-bar-complete">
+                                <img class="search-bar-icon ps-2" src="assets/images/search-normal.png"
+                                    alt="search-icon">
+                                <input class="input-area ps-2 pe-3" type="text" placeholder="Search something here">
+                                <img class="slider-icon pe-2 " src="assets/images/filter.png" alt="filter-icon">
+                            </div>
+                        </li>
+
+                    </ul>
+                    <div class="d-flex justify-content-md-evenly">
+                        <div class="circle icon-1  me-3">
+                            <div class="icon-image heart">
+                                <img src="assets/images/favourite.svg" alt="fav_image">
+                            </div>
+                        </div>
+                        <div class="circle icon-1  me-3">
+                            <div class="icon-image bell-icon">
+                                <img src="assets/images/notification.svg" alt="notification_image">
+                            </div>
+                        </div>
+                        <div class="circle icon-1  me-3">
+                            <div class="icon-image setting-icon">
+                                <img src="assets/images/settings.svg" alt="settings_image">
+                            </div>
+                        </div>
+                        <div class="circle icon-1  me-3">
+                            <div class="icon-image dp-icon">
+                                <img src="assets/images/dp.svg" alt="dp_image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- *nav bar Finished -->
+    </header>
+    <main class="container-fluid ps-5 pe-5">
+        <div class="row g-5">
+            <div class="left-side col-lg-8 col-12">
+                <div class="row billing-info">
+                    <div class="col-12 ps-4 pt-4">
+                        <h1 class="main-billing-info-heading ps-2">Billing Info</h1>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between align-items-center ps-4 pe-4">
+                        <p class="main-billing-step-info ps-2">Please enter your billing info</p>
+                        <p class="main-billing-step-info">Step 1 of 4</p>
+                    </div>
+                    <div class="col-12 row mb-5">
+                        <div class="col-lg-6 col-12 ps-4">
+                            <label for="fname" class="form-label-billing-info pb-2 ps-2">Name</label>
+                            <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                <input type="text" class="input-for-billing" id="fname" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 pe-4">
+                            <label for="lname" class="form-label-billing-info pb-2 ps-2">Phone Number</label>
+                            <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                <input type="text" class="input-for-billing" id="fname" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 ps-4 pt-4">
+                            <label for="fname" class="form-label-billing-info pb-2 ps-2">Address</label>
+                            <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                <input type="text" class="input-for-billing" id="fname" placeholder="Address">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 pe-4 pt-4">
+                            <label for="fname" class="form-label-billing-info pb-2 ps-2">Town/City</label>
+                            <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                <input type="text" class="input-for-billing" id="fname" placeholder="Town or City">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row billing-info rental-info-billing mt-5 mb-5">
+                    <div class="col-12 ps-4 pt-4">
+                        <h1 class="main-billing-info-heading ps-2">Rental Info</h1>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between align-items-center ps-4 pe-4">
+                        <p class="main-billing-step-info ps-2">Please select your rental date</p>
+                        <p class="main-billing-step-info">Step 2 of 4</p>
+                    </div>
+                    <!-- !pick up section -->
+                    <div class="col-12 row mb-4 mt-4 ms-4 ">
+                        <div class="col-12">
+                            <input class="form-check-input mt-2 text-pick-up-billing-info-radio" type="radio"
+                                name="location" id="pick-up" />
+                            <label class="form-check-label ms-3 text-pick-up-billing-info" for="pick-up"> Pick - Up
+                            </label>
+                        </div>
+
+
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-12 ps-4">
+                                <label for="fname" class="form-label-billing-info pb-2 ps-2">Locations </label>
+                                <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                    <select class="location input-for-billing">
+                                        <option selected>Select your city</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 pe-4">
+                                <label for="lname" class="form-label-billing-info pb-2 ps-2">Date</label>
+                                <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                    <select class="location input-for-billing">
+                                        <option selected>Select your date</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 ps-4 pt-4">
+                                <label for="fname" class="form-label-billing-info pb-2 ps-2">Time</label>
+                                <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                    <select class="location input-for-billing">
+                                        <option selected>Select your time</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- !Drop off section -->
+                    <div class="col-12 row mb-4 mt-5 ms-4 ">
+                        <div class="col-12">
+                            <input class="form-check-input mt-2 text-pick-up-billing-info-radio" type="radio"
+                                name="location" id="pick-up" />
+                            <label class="form-check-label ms-3 text-pick-up-billing-info" for="pick-up"> Drop-Off
+                            </label>
+                        </div>
+
+
+                    </div>
+                    <div class="col-12 mb-5">
+                        <div class="row">
+                            <div class="col-lg-6 col-12 ps-4">
+                                <label for="fname" class="form-label-billing-info pb-2 ps-2">Locations </label>
+                                <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                    <select class="location input-for-billing">
+                                        <option selected>Select your city</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 pe-4">
+                                <label for="lname" class="form-label-billing-info pb-2 ps-2">Date</label>
+                                <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                    <select class="location input-for-billing">
+                                        <option selected>Select your date</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 ps-4 pt-4">
+                                <label for="fname" class="form-label-billing-info pb-2 ps-2">Time</label>
+                                <div class="input-box-step-1 d-flex align-items-center ps-5">
+                                    <select class="location input-for-billing">
+                                        <option selected>Select your time</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="payment-method row mb-5">
+                    <div class="col-12 ps-4 pt-4">
+                        <h1 class="main-billing-info-heading ps-2">Payment Method</h1>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between align-items-center ps-4 pe-4">
+                        <p class="main-billing-step-info ps-2">Please enter your payment method</p>
+                        <p class="main-billing-step-info">Step 3 of 4</p>
+                    </div>
+                    <div class="col-11 card-information mx-auto mt-5 mb-5 ">
+                        <div class="row d-flex justify-content-between align-items-center mt-3 ms-3 mb-4">
+                            <div class="col d-flex align-items-center">
+                                <input class="form-check-input mt-2 text-pick-up-billing-info-radio" type="radio"
+                                    name="location" id="pick-up" />
+                                <label class="form-check-label ms-3 text-pick-up-billing-info mt-2" for="pick-up">Credit
+                                    Card</label>
+                            </div>
+                            <div class="col-auto">
+                                <img src="assets/images/visa-logo.svg" alt="visa-logo">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 row mb-5">
+                                <div class="col-lg-6 col-12 ps-4">
+                                    <label for="fname" class="form-label-billing-info pb-2 ps-2">Card Number</label>
+                                    <div class="input-box-step-2 d-flex align-items-center ps-5">
+                                        <input type="text" class="input-for-billing-1" id="fname"
+                                            placeholder="Card Number">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12 pe-4">
+                                    <label for="lname" class="form-label-billing-info pb-2 ps-2">Exparation date</label>
+                                    <div class="input-box-step-2 d-flex align-items-center ps-5">
+                                        <input type="text" class="input-for-billing-1" id="fname"
+                                            placeholder="DD/MM/YY">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12 ps-4 pt-4">
+                                    <label for="fname" class="form-label-billing-info pb-2 ps-2">Card Holder</label>
+                                    <div class="input-box-step-2 d-flex align-items-center ps-5">
+                                        <input type="text" class="input-for-billing-1" id="fname"
+                                            placeholder="Card Holder">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12 pe-4 pt-4">
+                                    <label for="fname" class="form-label-billing-info pb-2 ps-2">CVC</label>
+                                    <div class="input-box-step-2 d-flex align-items-center ps-5">
+                                        <input type="text" class="input-for-billing-1" id="fname" placeholder="CVC">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-11 card-information mx-auto mb-5 ">
+                        <div class="row d-flex justify-content-between align-items-center mt-3 ms-3 mb-4">
+                            <div class="col d-flex align-items-center">
+                                <input class="form-check-input mt-2 text-pick-up-billing-info-radio-1 me-4" type="radio"
+                                    name="location" id="pick-up" />
+                                <label class="form-check-label ms-3 text-pick-up-billing-info mt-2"
+                                    for="pick-up">Paypal</label>
+                            </div>
+                            <div class="col-auto pe-5">
+                                <img src="assets/images/paypal-logo.svg" alt="paypal-logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 card-information mx-auto mb-5 ">
+                        <div class="row d-flex justify-content-between align-items-center mt-3 ms-3 mb-4">
+                            <div class="col d-flex align-items-center">
+                                <input class="form-check-input mt-2 text-pick-up-billing-info-radio-1 me-4" type="radio"
+                                    name="location" id="pick-up" />
+                                <label class="form-check-label ms-3 text-pick-up-billing-info mt-2"
+                                    for="pick-up">Bitcoin</label>
+                            </div>
+                            <div class="col-auto pe-5">
+                                <img src="assets/images/bitcoin-logo.svg" alt="bitcoin-logo">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="conformation row mb-5">
+                    <div class="col-12 ps-4 pt-4">
+                        <h1 class="main-billing-info-heading ps-2">Confirmation</h1>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between align-items-center ps-4 pe-4">
+                        <p class="main-billing-step-info ps-2">We are getting to the end. Just few clicks and your rental is ready!</p>
+                        <p class="main-billing-step-info">Step 4 of 4</p>
+                    </div>
+                    <div class="col-11 card-information mx-auto mb-4 mt-4">
+                        <div class="row d-flex justify-content-between align-items-center mt-3 ms-3 mb-4">
+                            <div class="col d-flex align-items-center">
+                                <input class="form-check-input mt-2 text-pick-up-billing-info-radio-1 me-4" type="checkbox" required
+                                    name="location" id="pick-up" />
+                                <label class="form-check-label ms-3 text-pick-up-billing-info mt-2"
+                                    for="pick-up">I agree with sending an Marketing and newsletter emails. No spam, promissed!</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 card-information mx-auto mb-5 ">
+                        <div class="row d-flex justify-content-between align-items-center mt-3 ms-3 mb-4">
+                            <div class="col d-flex align-items-center">
+                                <input class="form-check-input mt-2 text-pick-up-billing-info-radio-1 me-4" type="checkbox" required
+                                    name="location" id="pick-up" />
+                                <label class="form-check-label ms-3 text-pick-up-billing-info mt-2"
+                                    for="pick-up">I agree with our terms and conditions and privacy policy.</label>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-12 row mx-5 mb-4">
+                        <div class="rent-btn-conform-box d-flex align-items-center justify-content-center">
+                            <button class="car-conform-btn">Rent Now</button>
+                        </div>
+                    </div>
+                    <div class="col-12 ms-5 mt-5 mb-4">
+                        <div class="img">
+                            <img src="assets/images/secured-logo.svg" alt=" secured-logo">
+                        </div>
+                    </div>
+                    <div class="col-12 ms-5">
+                        <p class="basic-heading-billing">All your data are safe</p>
+                    </div>
+                    <div class="col-12 ms-5 mb-4">
+                        <p class="basic-heading-billing-para">We are using the most advanced security to provide you the best experience ever.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="right-side col-lg-4 col-12 mb-5">
+                <div class="row rental-summary">
+                    <div class="col-12 mt-4 ms-4">
+                        <h1 class="rental-summary-heading">Rental Summary</h1>
+                        <p class="rental-summary-para me-5 mt-4">Prices may change depending on the length of the rental
+                            and the price of your rental car.</p>
+                    </div>
+                    <div class="img-name-review col-12 row ms-3 mt-5">
+                        <div class="img-box-review col-5">
+                            <img src="assets/images/rental-summary-car.svg" alt="">
+                        </div>
+                        <div class="text-stars col-7 mt-3">
+                            <h1 class="col-12 car-name-heading">Nissan GT-R</h1>
+                            <div class="stars-reviews-d row">
+                                <img src="assets/images/review-stars.svg" alt="" class="col-6">
+                                <p class="col-6 mt-4 rental-summary-para">440+ Reviewer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line-rental-summary col-12 ">
+                        <div class="horizontal-line-summary ms-4 mb-4 mt-5">
+                        </div>
+                    </div>
+                    <div class="sub-total-summary col-12 d-flex justify-content-between ms-4 pe-5">
+                        <p class="subtotal-summary">Subtotal</p>
+                        <p class="subtotal-price me-3">$80.00</p>
+                    </div>
+                    <div class="sub-total-summary col-12 d-flex justify-content-between ms-4 pe-5">
+                        <p class="subtotal-summary">Tax</p>
+                        <p class="subtotal-price me-3">$0</p>
+                    </div>
+                    <div class="col-12 d-flex align-items-center justify-content-center mt-3">
+                        <div class="promo-code-section col-12">
+                            <input type="text" placeholder="Apply Promo code" class="promo-code">
+                            <button class="promo-btn"> Apply Now</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 row mt-5 ms-4 mb-3">
+                        <div class="total-price-text col-8">
+                            <h1 class="total-rent-price-text">Total Rent Price</h1>
+                            <p class=" total-rent-price-text-para">Overall price and includes rental discount</p>
+                        </div>
+                        <div class="total-price col-4 me-0">
+                            <h1 class="total-rent-price pe-5">$80.00</h1>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+    </main>
+
+
+
+
+
+    <!-- *Footer start from here  -->
+    <footer>
+        <div class="footer-container container-fluid">
+            <div class="row footer-row pt-4">
+                <div class="col-6 company-info">
+                    <div class="row company-name-and-para">
+                        <div class="col-12 company-name">
+                            <h1 class="company-footer-name">MORENT</h1>
+                        </div>
+                        <div class="col-12 details-name mt-2">
+                            <p>Our vision is to provide convenience and help increase your sales business.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 other-info">
+                    <div class="row">
+                        <div class="col-4">
+                            <h4 class="about">About</h4>
+                            <a href="">
+                                <p>How it works </p>
+                            </a>
+                            <a href="">
+                                <p>Featured</p>
+                            </a>
+                            <a href="">
+                                <p>Partnership</p>
+                            </a>
+                            <a href="">
+                                <p>Bussiness Relation</p>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <h4 class="community">Community</h4>
+
+                            <a href="">
+                                <p>Events </p>
+                            </a>
+                            <a href="">
+                                <p>Blog</p>
+                            </a>
+                            <a href="">
+                                <p>Podcast</p>
+                            </a>
+                            <a href="">
+                                <p>Invite a friend</p>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <h4 class="socials">Socials</h4>
+
+                            <a href="">
+                                <p>Discord </p>
+                            </a>
+                            <a href="">
+                                <p>Instagram</p>
+                            </a>
+                            <a href="">
+                                <p>Twitter</p>
+                            </a>
+                            <a href="">
+                                <p>Facebook</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <hr class="horizintal-line-footer">
+                <div class="line-break"></div>
+                <div class="last-row mt-5">
+                    <div class="copy-right">
+                        <h5>&copy; 2022 MORENT. All rights reserved</h5>
+                    </div>
+                    <div class="policy me-5">
+                        <h5>Privacy & Policy</h5>
+                    </div>
+
+                    <div class="terms ms-5">
+                        <h5>Terms & Condition</h5>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </footer>
+    <!-- *Footer Ends here  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

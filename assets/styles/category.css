@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #3563E9;
+    --secondary-color: #ffffff;
+    --Background-color: #F6F7F9;
+    --helping-color: #54A6FF;
+    --text-color-1: #596780;
+    --text-color-2: #90A3BF;
+    --text-color-3: #1A202C;
+    --text-color-4: #131313;
+    --border-color: #e0e0e0;
+    --font-Style: "Plus Jakarta Sans"
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-Style);
+    background-color: #f6f6f6 !important;
+    overflow-x: hidden;
+}
+
+/* *selection area styling start here */
+
+.selection-area {
+    width: 36rem;
+    background-color: var(--secondary-color);
+    min-height: calc(100vh - 45rem);
+    margin-top: -4rem;
+    padding-top: 4rem;
+}
+
+.type-row {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.select-type {
+    color: var(--text-color-2);
+}
+
+.check-box {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+.name-check-box {
+    font-size: 1.4rem;
+    color: var(--text-color-3);
+    font-weight: 500;
+}
+
+.Cars-available {
+    font-size: 1.4rem;
+    color: var(--text-color-2);
+    font-weight: 500;
+
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+}
+
+.range-slider {
+    width: 100%;
+    height: 1rem;
+    background-color: var(--border-color);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
